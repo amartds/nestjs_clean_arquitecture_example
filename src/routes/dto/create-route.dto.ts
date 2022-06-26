@@ -5,3 +5,5 @@ export class CreateRouteDto {
   endPosition: LatLng;
   points?: Array<LatLng>;
 }
+
+// TODO: add class validator
