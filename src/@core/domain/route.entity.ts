@@ -33,7 +33,7 @@ export class Route {
   }
 
   private set title(value: string) {
-    this.title = value;
+    this.props.title = value;
   }
 
   get startPosition() {
@@ -48,7 +48,7 @@ export class Route {
     return this.props.points;
   }
 
-  private setPoints(value: Array<LatLng>) {
+  private set points(value: Array<LatLng>) {
     this.props.points = value;
   }
 

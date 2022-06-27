@@ -1,5 +1,5 @@
 import { RouteRepository } from '../domain/route-repository';
-import { LatLng, Route } from '../domain/route.entity';
+import { LatLng } from '../domain/route.entity';
 
 type ListRouteOutPut = {
   id: string;
